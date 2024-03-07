@@ -46,7 +46,7 @@ const Projetos = () => {
 
         <div className="card-projeto">
           <h3>Countries API</h3>
-          <img src="./src/images/countries.png" alt="imagem projeto countries" className="imagem-projeto" />
+          <img src="./images/countries.png" alt="imagem projeto countries" className="imagem-projeto" />
           <div className="card-infos">
             Esse é um projeto de API que busca países e suas informações, usando Html, Css, React e JavaScript.
           </div>
@@ -64,7 +64,7 @@ const Projetos = () => {
 
         <div className="card-projeto">
           <h3>GitHub API</h3>
-          <img src="./src/images/githubapi.png" alt="imagem projeto github" className="imagem-projeto" />
+          <img src="./images/githubapi.png" alt="imagem projeto github" className="imagem-projeto" />
           <div className="card-infos">
             Um projeto de busca de usuários pela API do GitHub usando Html, Css, React e TypeScript.
           </div>
@@ -81,17 +81,17 @@ const Projetos = () => {
         </div>
 
         <div className="card-projeto">
-          <h3>Countries</h3>
-          <img src="./src/images/printmar.png" alt="" className="imagem-projeto" />
+          <h3>GitHub API</h3>
+          <img src="./images/githubapi.png" alt="imagem projeto github" className="imagem-projeto" />
           <div className="card-infos">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo labore natus cumque magni dolorum ipsam odio eius minus
+            Um projeto de busca de usuários pela API do GitHub usando Html, Css, React e TypeScript.
           </div>
           <div className="links-github-e-projeto">
-            <a href="https://github.com/Ryanvrl/country-react" target="_blank" className="link-do-card link-github">
+            <a href="https://github.com/Ryanvrl/gitHubApi-ts" target="_blank" className="link-do-card link-github">
               <FaGithub className="icon-github-projeto" />
               repositório
             </a>
-            <a href="https://countries-ryanvrl.vercel.app/" target="_blank" className="link-do-card link-projeto">
+            <a href="https://githubapi-ryanvrl.vercel.app/" target="_blank" className="link-do-card link-projeto">
               <IoLogoVercel />
               Link do Projeto
             </a>
@@ -99,17 +99,17 @@ const Projetos = () => {
         </div>
 
         <div className="card-projeto">
-          <h3>Countries</h3>
-          <img src="./src/images/printmar.png" alt="" className="imagem-projeto" />
+          <h3>GitHub API</h3>
+          <img src="./images/githubapi.png" alt="imagem projeto github" className="imagem-projeto" />
           <div className="card-infos">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo labore natus cumque magni dolorum ipsam odio eius min facere?
+            Um projeto de busca de usuários pela API do GitHub usando Html, Css, React e TypeScript.
           </div>
           <div className="links-github-e-projeto">
-            <a href="https://github.com/Ryanvrl/country-react" target="_blank" className="link-do-card link-github">
+            <a href="https://github.com/Ryanvrl/gitHubApi-ts" target="_blank" className="link-do-card link-github">
               <FaGithub className="icon-github-projeto" />
               repositório
             </a>
-            <a href="https://countries-ryanvrl.vercel.app/" target="_blank" className="link-do-card link-projeto">
+            <a href="https://githubapi-ryanvrl.vercel.app/" target="_blank" className="link-do-card link-projeto">
               <IoLogoVercel />
               Link do Projeto
             </a>
@@ -117,22 +117,23 @@ const Projetos = () => {
         </div>
 
         <div className="card-projeto">
-          <h3>Countries</h3>
-          <img src="./src/images/printmar.png" alt="" className="imagem-projeto" />
+          <h3>GitHub API</h3>
+          <img src="./images/githubapi.png" alt="imagem projeto github" className="imagem-projeto" />
           <div className="card-infos">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo labore natus cumque magni doloreniam, asperiores numquam facere?
+            Um projeto de busca de usuários pela API do GitHub usando Html, Css, React e TypeScript.
           </div>
           <div className="links-github-e-projeto">
-            <a href="https://github.com/Ryanvrl/country-react" target="_blank" className="link-do-card link-github">
+            <a href="https://github.com/Ryanvrl/gitHubApi-ts" target="_blank" className="link-do-card link-github">
               <FaGithub className="icon-github-projeto" />
               repositório
             </a>
-            <a href="https://countries-ryanvrl.vercel.app/" target="_blank" className="link-do-card link-projeto">
+            <a href="https://githubapi-ryanvrl.vercel.app/" target="_blank" className="link-do-card link-projeto">
               <IoLogoVercel />
               Link do Projeto
             </a>
           </div>
         </div>
+
       </div>
     </section>
   )
