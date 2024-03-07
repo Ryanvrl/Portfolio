@@ -133,7 +133,6 @@ const Projetos = () => {
             </a>
           </div>
         </div>
-
       </div>
     </section>
   )
