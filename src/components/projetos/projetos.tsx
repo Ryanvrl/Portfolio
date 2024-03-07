@@ -28,7 +28,7 @@ const Projetos = () => {
 
       scrollTrigger: {
         trigger: ".cards-projetos",
-        markers: true,
+        markers: false,
         start: 'top 400px',
         end: 'bottom 550px',
       }
