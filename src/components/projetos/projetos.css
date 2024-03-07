@@ -1,0 +1,87 @@
+.container-projetos {
+    min-height: 100vh;
+    color: #fff;
+    padding: 20px 70px; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.container-projetos .title {
+    font-size: 40px;
+}
+
+.cards-projetos {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.cards-projetos .card-projeto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    transform: translateY(1000px);
+    opacity: 0;
+}
+
+.card-projeto h3 {
+    margin-bottom: 10px;
+}
+
+.card-projeto .imagem-projeto {
+    border-radius: 5px;
+    width: 100%;
+    height: 150px;
+}
+
+.card-projeto .card-infos {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    height: 100px;
+}
+
+.links-github-e-projeto {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.link-do-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.links-github-e-projeto .link-do-card:hover {
+    color: #333380;
+}
+
+
+@media (max-width: 810px) {
+    .container-projetos {
+        padding: 20px 10px;
+    }
+}
+
+@media (max-width: 540px) {
+    .cards-projetos .card-projeto {
+        width: 290px;
+    }  
+}
+
+
+
+
+
+

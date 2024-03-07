@@ -1,0 +1,24 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+}
+
+body {
+  position: relative;
+  min-width: 100%;
+  min-height: 100vh;
+  z-index: -29;
+}
+
+

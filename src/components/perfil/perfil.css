@@ -1,0 +1,36 @@
+.perfil {
+    min-height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.perfil .title {
+    font-size: 40px;
+    font-weight: 900;
+    margin: 50px 30px;
+}
+
+.perfil-detalhes {
+    margin-top: 50px;
+    max-width: 700px;
+    transform: translateX(-700px);
+    opacity: 0;
+}
+
+.perfil-detalhes p {
+    margin-top: 30px;
+}
+
+@media (max-width: 900px) {
+    .descricao {
+        max-width: 90%;
+        text-align: center;
+    }
+
+    .perfil-detalhes {
+        max-width: 90%;
+    }
+}
