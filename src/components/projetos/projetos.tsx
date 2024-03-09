@@ -105,11 +105,11 @@ const Projetos = () => {
            Faz um busca de pokemons pela PokéAPI, filtrando por nome e alternando tema usando Html, Css, React e JavaScript.
           </div>
           <div className="links-github-e-projeto">
-            <a href="https://github.com/Ryanvrl/gitHubApi-ts" target="_blank" className="link-do-card link-github">
+            <a href="https://github.com/Ryanvrl/pokedex-react" target="_blank" className="link-do-card link-github">
               <FaGithub className="icon-github-projeto" />
               repositório
             </a>
-            <a href="https://githubapi-ryanvrl.vercel.app/" target="_blank" className="link-do-card link-projeto">
+            <a href="https://pokedex-ryanvrl.vercel.app" target="_blank" className="link-do-card link-projeto">
               <IoLogoVercel />
               Link do Projeto
             </a>
