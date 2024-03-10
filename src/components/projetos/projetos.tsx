@@ -63,6 +63,24 @@ const Projetos = () => {
         </div>
 
         <div className="card-projeto">
+          <h3>Pokédex</h3>
+          <img src="./images/print-pokedex.png" alt="imagem projeto github" className="imagem-projeto" />
+          <div className="card-infos">
+            Faz um busca de pokemons pela PokéAPI, filtrando por nome e alternando tema usando Html, Css, React e JavaScript.
+          </div>
+          <div className="links-github-e-projeto">
+            <a href="https://github.com/Ryanvrl/pokedex-react" target="_blank" className="link-do-card link-github">
+              <FaGithub className="icon-github-projeto" />
+              repositório
+            </a>
+            <a href="https://pokedex-ryanvrl.vercel.app" target="_blank" className="link-do-card link-projeto">
+              <IoLogoVercel />
+              Link do Projeto
+            </a>
+          </div>
+        </div>
+
+        <div className="card-projeto">
           <h3>GitHub API</h3>
           <img src="./images/githubapi.png" alt="imagem projeto github" className="imagem-projeto" />
           <div className="card-infos">
@@ -98,23 +116,7 @@ const Projetos = () => {
           </div>
         </div>
 
-        <div className="card-projeto">
-          <h3>Pokédex</h3>
-          <img src="./images/print-pokedex.png" alt="imagem projeto github" className="imagem-projeto" />
-          <div className="card-infos">
-           Faz um busca de pokemons pela PokéAPI, filtrando por nome e alternando tema usando Html, Css, React e JavaScript.
-          </div>
-          <div className="links-github-e-projeto">
-            <a href="https://github.com/Ryanvrl/pokedex-react" target="_blank" className="link-do-card link-github">
-              <FaGithub className="icon-github-projeto" />
-              repositório
-            </a>
-            <a href="https://pokedex-ryanvrl.vercel.app" target="_blank" className="link-do-card link-projeto">
-              <IoLogoVercel />
-              Link do Projeto
-            </a>
-          </div>
-        </div>
+
 
         <div className="card-projeto">
           <h3>GitHub API</h3>
