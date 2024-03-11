@@ -16,23 +16,12 @@ const Projetos = () => {
       scrollTrigger: {
         trigger: ".container-projetos",
         markers: false,
-        start: 'top 450px',
+        start: 'top 300px',
         end: 'bottom 550px',
       }
     })
 
-    gsap.to(".imagem-projeto", {
-      rotation: 360,
-      duration: 1.2,
-      ease: "bounce.out",
-
-      scrollTrigger: {
-        trigger: ".cards-projetos",
-        markers: false,
-        start: 'top 400px',
-        end: 'bottom 550px',
-      }
-    });
+    
 
     return () => {
       gsap.killTweensOf('.container-icons')

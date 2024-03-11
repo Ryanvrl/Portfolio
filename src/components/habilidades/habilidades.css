@@ -57,7 +57,7 @@
 
     .container-habilidades .container-icons {
         gap: 40px 40px;
-        transform: translateX(-100px);
+        
     }
 
     .container-icons .icon {
