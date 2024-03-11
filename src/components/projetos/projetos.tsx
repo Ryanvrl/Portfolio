@@ -23,7 +23,7 @@ const Projetos = () => {
 
     gsap.to(".imagem-projeto", {
       rotation: 360,
-      duration: 1.7,
+      duration: 1.2,
       ease: "bounce.out",
 
       scrollTrigger: {
@@ -119,17 +119,17 @@ const Projetos = () => {
 
 
         <div className="card-projeto">
-          <h3>GitHub API</h3>
-          <img src="./images/githubapi.png" alt="imagem projeto github" className="imagem-projeto" />
+          <h3>Landing page</h3>
+          <img src="./images/landing-page.png" alt="imagem projeto github" className="imagem-projeto" />
           <div className="card-infos">
             Um projeto de busca de usuários pela API do GitHub usando Html, Css, React e TypeScript.
           </div>
           <div className="links-github-e-projeto">
-            <a href="https://github.com/Ryanvrl/gitHubApi-ts" target="_blank" className="link-do-card link-github">
+            <a href="https://github.com/Ryanvrl/landing-page" target="_blank" className="link-do-card link-github">
               <FaGithub className="icon-github-projeto" />
               repositório
             </a>
-            <a href="https://githubapi-ryanvrl.vercel.app/" target="_blank" className="link-do-card link-projeto">
+            <a href="https://landing-page-ryanvrl.vercel.app/" target="_blank" className="link-do-card link-projeto">
               <IoLogoVercel />
               Link do Projeto
             </a>

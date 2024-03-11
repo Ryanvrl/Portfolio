@@ -13,6 +13,10 @@
     margin: 50px 30px;
 }
 
+.perfil .descricao {
+    font-size: 24px;
+}
+
 .perfil-detalhes {
     margin-top: 50px;
     max-width: 700px;
@@ -22,6 +26,8 @@
 
 .perfil-detalhes p {
     margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
 }
 
 @media (max-width: 900px) {

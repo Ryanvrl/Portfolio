@@ -1,7 +1,7 @@
 .container-projetos {
     min-height: 100vh;
     color: #fff;
-    padding: 20px 70px; 
+    padding: 20px; 
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -26,7 +26,7 @@
     align-items: center;
     flex-direction: column;
     gap: 10px;
-    width: 300px;
+    width: 400px;
     transform: translateY(1000px);
     opacity: 0;
 }
@@ -38,7 +38,6 @@
 .card-projeto .imagem-projeto {
     border-radius: 5px;
     width: 100%;
-    height: 150px;
 }
 
 .card-projeto .card-infos {

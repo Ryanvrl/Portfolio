@@ -26,12 +26,18 @@ const Perfil = () => {
 
     return (
         <section className="perfil">
-            <h1 className="title">Sobre mim</h1>
+            <h2 className="title">Sobre mim</h2>
             <h3 className="descricao">Meu nome é Ryan Victor e eu sou desenvolvedor front-end</h3>
             <div className="perfil-detalhes">
-                <p>Sempre me interessei em coisas relacionadas a tecnologia e decidi por curiosidade ver o que fazia um desenvolvedor front-end, a partir desse dia me interessei muito na área, comecei a estudar e fazer projetos relacionados ao assunto.</p>
-
-                <p>Gosto de jogar, ver filmes e series, também gosto de muito de esportes, principalmente futebol.  </p>
+                <p>
+                    Estou em busca da minha primeira oportunidade na área, como desenvolvedor gosto de buscar conhecimento por atividades práticas da habilidade que decidi aprender.
+                </p>
+                <p>
+                    Sempre me interessei em coisas relacionadas a tecnologia e decidi por curiosidade ver o que fazia um desenvolvedor front-end, a partir desse dia me interessei muito na área, comecei a estudar e fazer projetos relacionados ao assunto.
+                </p>
+                <p>
+                    Gosto de jogar, ver filmes e séries, também gosto de muito de esportes, principalmente futebol.
+                </p>
             </div>
         </section>
     )

@@ -3,7 +3,7 @@ import { useLayoutEffect } from "react"
 import { TiHtml5 } from "react-icons/ti"
 import './habilidades.css'
 import { IoLogoJavascript } from "react-icons/io"
-import { SiStyledcomponents, SiTypescript } from "react-icons/si"
+import { SiTypescript } from "react-icons/si"
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
@@ -61,14 +61,7 @@ const Habilidades = () => {
                 <div className="icon ">
                     <FaGitAlt size="150px" className="img-icon" />
                     <h2>Git</h2>
-                </div>
-
-                <div className="icon ">
-                    <SiStyledcomponents size="150px" className="img-icon" />
-                    <h2>Styled Component</h2>
-                </div>
-
-              
+                </div>              
             </div>
         </section>
 
