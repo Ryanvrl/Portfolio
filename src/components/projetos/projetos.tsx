@@ -21,8 +21,6 @@ const Projetos = () => {
       }
     })
 
-    
-
     return () => {
       gsap.killTweensOf('.container-icons')
     }
