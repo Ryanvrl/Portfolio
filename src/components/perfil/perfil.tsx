@@ -39,7 +39,10 @@ const Perfil = () => {
                     Gosto de jogar, ver filmes e séries, também gosto de muito de esportes, principalmente futebol.
                 </p>
 
-                <a href="./public/curriculo/link-c.pdf" download='./public/curriculo/link-c.pdf' className="link-curriculo">Baixar o currículo</a>
+                <a href="https://drive.google.com/file/d/1x7F9cqXH1sIVrjHQdLD59yG7n8jhNAkM/view?usp=drive_link"
+                    download='https://drive.google.com/file/d/1x7F9cqXH1sIVrjHQdLD59yG7n8jhNAkM/view?usp=drive_link' className="link-curriculo">
+                    Baixar o currículo
+                </a>
             </div>
         </section>
     )
