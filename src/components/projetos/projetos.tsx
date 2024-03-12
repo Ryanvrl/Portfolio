@@ -127,7 +127,7 @@ const Projetos = () => {
             <div className="card-infos">
               <h3>Landing page</h3>
               <p>
-                Um projeto de uma landing page que usa Html e css.
+                Um projeto de uma landing page que usa Html e Css.
               </p>
             </div>
           </div>
