@@ -40,7 +40,7 @@ const Perfil = () => {
                 </p>
 
                 <a href="https://drive.google.com/file/d/1x7F9cqXH1sIVrjHQdLD59yG7n8jhNAkM/view?usp=drive_link"
-                    download='https://drive.google.com/file/d/1x7F9cqXH1sIVrjHQdLD59yG7n8jhNAkM/view?usp=drive_link' className="link-curriculo">
+                    download='https://drive.google.com/file/d/1x7F9cqXH1sIVrjHQdLD59yG7n8jhNAkM/view?usp=drive_link' className="link-curriculo" target="_blank">
                     Meu currículo
                 </a>
             </div>
