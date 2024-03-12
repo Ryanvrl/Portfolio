@@ -45,7 +45,7 @@
     display: flex;  
     flex-direction: column;
     padding: 10px;
-    height: 120px;
+    height: 130px;
     background-color: #ffffff;
     border-radius: 0 0 5px 5px;
     font-weight: 500;
@@ -80,6 +80,10 @@
 @media (max-width: 810px) {
     .container-projetos {
         padding: 20px 10px;
+    }
+
+    .card-projeto .card-infos {
+        height: 150px;
     }
 }
 
