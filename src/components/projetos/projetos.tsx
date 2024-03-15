@@ -59,6 +59,7 @@ const Projetos = () => {
             <div className="card-infos">
               <h3>Pokédex</h3>
               <p>
+                EM ANDAMENTO
                 Faz um busca de pokemons pela PokéAPI, filtrando por nome e alternando tema usando Html, Css, React e JavaScript.
               </p>
             </div>
