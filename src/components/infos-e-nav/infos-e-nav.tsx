@@ -3,8 +3,8 @@ import "./infos-e-nav.css"
 const InfosNavegacao = () => {
     return (
         <section className='container-menu'>
-            <video autoPlay muted loop className='video-bg' poster='./images/printmar.png'>
-                <source src="./images/pexels_videos_1879456 (720p).mp4" type='video/mp4' />
+            <video autoPlay muted loop className='video-bg' poster='./assets/printmar.png'>
+                <source src="./assets/pexels_videos_1879456 (720p).mp4" type='video/mp4' />
             </video>
             <div className='infos-primarias'>
                 <div className='navegacao'>

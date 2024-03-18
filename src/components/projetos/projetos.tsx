@@ -33,7 +33,7 @@ const Projetos = () => {
 
         <div className="card-projeto">
           <div className="container-card-filho-projeto">
-            <img src="./images/countries.png" alt="imagem projeto countries" className="imagem-projeto" />
+            <img src="./assets/countries.png" alt="imagem projeto countries" className="imagem-projeto" />
             <div className="card-infos">
               <h3>Countries API</h3>
               <p>
@@ -55,11 +55,10 @@ const Projetos = () => {
 
         <div className="card-projeto">
           <div className="container-card-filho-projeto">
-            <img src="./images/print-pokedex.png" alt="imagem projeto github" className="imagem-projeto" />
+            <img src="./assets/print-pokedex.png" alt="imagem projeto github" className="imagem-projeto" />
             <div className="card-infos">
               <h3>Pokédex</h3>
               <p>
-                EM ANDAMENTO
                 Faz uma busca de pokemons pela PokéAPI, filtrando por nome e alternando tema usando Html, Css, React e JavaScript.
               </p>
             </div>
@@ -78,7 +77,29 @@ const Projetos = () => {
 
         <div className="card-projeto">
           <div className="container-card-filho-projeto">
-            <img src="./images/githubapi.png" alt="imagem projeto github" className="imagem-projeto" />
+            <img src="./assets/burger.png" alt="imagem projeto github" className="imagem-projeto" />
+            <div className="card-infos">
+              <h3>Burger</h3>
+              <p>
+                Um projeto que simula pedidos de um restaurante usando a API da ViaCEP, React, TypeScript e Tailwind. 
+              </p>
+            </div>
+          </div>
+          <div className="links-github-e-projeto">
+            <a href="https://github.com/Ryanvrl/burger" target="_blank" className="link-do-card link-github">
+              <FaGithub className="icon-github-projeto" />
+              repositório
+            </a>
+            <a href="https://burger-ryanvrl.vercel.app/" target="_blank" className="link-do-card link-projeto">
+              <IoLogoVercel />
+              Link do Projeto
+            </a>
+          </div>
+        </div>
+
+        <div className="card-projeto">
+          <div className="container-card-filho-projeto">
+            <img src="./assets/githubapi.png" alt="imagem projeto github" className="imagem-projeto" />
             <div className="card-infos">
               <h3>GitHub API</h3>
               <p>
@@ -100,7 +121,7 @@ const Projetos = () => {
 
         <div className="card-projeto">
           <div className="container-card-filho-projeto">
-            <img src="./images/portfolio.png" alt="imagem projeto github" className="imagem-projeto" />
+            <img src="./assets/portfolio.png" alt="imagem projeto github" className="imagem-projeto" />
             <div className="card-infos">
               <h3>Portfólio</h3>
               <p>
@@ -120,11 +141,9 @@ const Projetos = () => {
           </div>
         </div>
 
-
-
         <div className="card-projeto">
           <div className="container-card-filho-projeto">
-            <img src="./images/landing-page.png" alt="imagem projeto github" className="imagem-projeto" />
+            <img src="./assets/landing-page.png" alt="imagem projeto github" className="imagem-projeto" />
             <div className="card-infos">
               <h3>Landing page</h3>
               <p>
@@ -143,6 +162,7 @@ const Projetos = () => {
             </a>
           </div>
         </div>
+
       </div>
     </section>
   )

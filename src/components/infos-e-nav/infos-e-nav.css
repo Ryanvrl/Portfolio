@@ -1,7 +1,6 @@
 .container-menu {
     position: relative;
     min-height: 100vh;
-    
 }
 
 .container-menu .video-bg {
@@ -35,8 +34,7 @@
 
 .container-menu .info li {
     margin: 5px 20px;
-    border-bottom: 1px solid #00000000;
-    
+    border-bottom: 1px solid #00000000; 
     cursor: pointer;
     display: inline-block;
     position: relative;

@@ -3,7 +3,7 @@ import { useLayoutEffect } from "react"
 import { TiHtml5 } from "react-icons/ti"
 import './habilidades.css'
 import { IoLogoJavascript } from "react-icons/io"
-import { SiTypescript } from "react-icons/si"
+import { SiTailwindcss, SiTypescript } from "react-icons/si"
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
@@ -33,15 +33,18 @@ const Habilidades = () => {
             <h2 className="title">Habilidades</h2>
 
             <div className="container-icons">
-
                 <div className="icon ">
                     <TiHtml5 size="150px" className="img-icon" />
-                    <h2>HTML</h2></div>
+                    <h2>HTML</h2>
+                </div>
                 <div className="icon ">
                     <FaCss3Alt size="150px" className="img-icon" />
                     <h2>CSS</h2>
                 </div>
-
+                <div className="icon ">
+                    <SiTailwindcss size="150px" className="img-icon" />
+                    <h2>Tailwind</h2>
+                </div>
                 <div className="icon ">
                     <IoLogoJavascript size="150px" className="img-icon" />
                     <h2>JavaScript</h2>
@@ -61,7 +64,7 @@ const Habilidades = () => {
                 <div className="icon ">
                     <FaGitAlt size="150px" className="img-icon" />
                     <h2>Git</h2>
-                </div>              
+                </div>
             </div>
         </section>
 
