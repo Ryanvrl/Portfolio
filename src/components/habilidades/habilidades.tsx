@@ -8,7 +8,6 @@ import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
 const Habilidades = () => {
-
     useLayoutEffect(() => {
         gsap.registerPlugin(ScrollTrigger)
         gsap.to('.container-icons', {

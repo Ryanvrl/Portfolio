@@ -1,10 +1,12 @@
 import "./infos-e-nav.css"
+import videoMar from '../../assets/pexels_videos_1879456 (720p).mp4'
+import posterMar from '../../assets/printmar.png'
 
 const InfosNavegacao = () => {
     return (
         <section className='container-menu'>
-            <video autoPlay muted loop className='video-bg' poster='./assets/printmar.png'>
-                <source src="./assets/pexels_videos_1879456 (720p).mp4" type='video/mp4' />
+            <video autoPlay muted loop className='video-bg' poster={posterMar}>
+                <source src={videoMar} type='video/mp4' />
             </video>
             <div className='infos-primarias'>
                 <div className='navegacao'>

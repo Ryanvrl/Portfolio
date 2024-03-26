@@ -5,8 +5,14 @@ import { useLayoutEffect } from "react"
 import { FaGithub } from "react-icons/fa"
 import { IoLogoVercel } from "react-icons/io5"
 
-const Projetos = () => {
+import printBurger from '../../assets/burger.png'
+import printCountries from '../../assets/countries.png'
+import printPokedex from '../../assets/print-pokedex.png'
+import printPortfolio from '../../assets/portfolio.png'
+import printGithub from '../../assets/githubapi.png'
+import printTechshop from '../../assets/techshopprint.png'
 
+const Projetos = () => {
   useLayoutEffect(() => {
     gsap.registerPlugin(ScrollTrigger)
     gsap.to('.card-projeto', {
@@ -33,7 +39,29 @@ const Projetos = () => {
 
         <div className="card-projeto">
           <div className="container-card-filho-projeto">
-            <img src="./assets/countries.png" alt="imagem projeto countries" className="imagem-projeto" />
+            <img src={printTechshop} alt="imagem projeto techshop" className="imagem-projeto" />
+            <div className="card-infos">
+              <h3>Techshop</h3>
+              <p>
+                Simula um e-commerce usando contextAPI, ViaCepAPI. React, TypeScript e Tailwind.
+              </p>
+            </div>
+          </div>
+          <div className="links-github-e-projeto">
+            <a href="https://github.com/Ryanvrl/techshop" target="_blank" className="link-do-card link-github">
+              <FaGithub className="icon-github-projeto" />
+              repositório
+            </a>
+            <a href="https://techshop-ryanvrl.vercel.app/" target="_blank" className="link-do-card link-projeto">
+              <IoLogoVercel />
+              Link do Projeto
+            </a>
+          </div>
+        </div>
+
+        <div className="card-projeto">
+          <div className="container-card-filho-projeto">
+            <img src={printCountries} alt="imagem projeto countries" className="imagem-projeto" />
             <div className="card-infos">
               <h3>Countries API</h3>
               <p>
@@ -55,7 +83,7 @@ const Projetos = () => {
 
         <div className="card-projeto">
           <div className="container-card-filho-projeto">
-            <img src="./assets/print-pokedex.png" alt="imagem projeto github" className="imagem-projeto" />
+            <img src={printPokedex} alt="projeto pokedex" className="imagem-projeto" />
             <div className="card-infos">
               <h3>Pokédex</h3>
               <p>
@@ -77,11 +105,11 @@ const Projetos = () => {
 
         <div className="card-projeto">
           <div className="container-card-filho-projeto">
-            <img src="./assets/burger.png" alt="imagem projeto github" className="imagem-projeto" />
+            <img src={printBurger} alt="imagem projeto Burger" className="imagem-projeto" />
             <div className="card-infos">
               <h3>Burger</h3>
               <p>
-                Um projeto que simula pedidos de um restaurante usando a API da ViaCEP, React, TypeScript e Tailwind. 
+                Um projeto que simula pedidos de um restaurante usando a API da ViaCEP, React, TypeScript e Tailwind.
               </p>
             </div>
           </div>
@@ -99,7 +127,7 @@ const Projetos = () => {
 
         <div className="card-projeto">
           <div className="container-card-filho-projeto">
-            <img src="./assets/githubapi.png" alt="imagem projeto github" className="imagem-projeto" />
+            <img src={printGithub} alt="imagem projeto github" className="imagem-projeto" />
             <div className="card-infos">
               <h3>GitHub API</h3>
               <p>
@@ -121,7 +149,7 @@ const Projetos = () => {
 
         <div className="card-projeto">
           <div className="container-card-filho-projeto">
-            <img src="./assets/portfolio.png" alt="imagem projeto github" className="imagem-projeto" />
+            <img src={printPortfolio} alt="imagem projeto portfolio" className="imagem-projeto" />
             <div className="card-infos">
               <h3>Portfólio</h3>
               <p>
@@ -141,27 +169,7 @@ const Projetos = () => {
           </div>
         </div>
 
-        <div className="card-projeto">
-          <div className="container-card-filho-projeto">
-            <img src="./assets/landing-page.png" alt="imagem projeto github" className="imagem-projeto" />
-            <div className="card-infos">
-              <h3>Landing page</h3>
-              <p>
-                Um projeto de uma landing page que usa Html e Css.
-              </p>
-            </div>
-          </div>
-          <div className="links-github-e-projeto">
-            <a href="https://github.com/Ryanvrl/landing-page" target="_blank" className="link-do-card link-github">
-              <FaGithub className="icon-github-projeto" />
-              repositório
-            </a>
-            <a href="https://landing-page-ryanvrl.vercel.app/" target="_blank" className="link-do-card link-projeto">
-              <IoLogoVercel />
-              Link do Projeto
-            </a>
-          </div>
-        </div>
+
 
       </div>
     </section>
